@@ -1,0 +1,8 @@
+1、修改ip
+vim /etc/sysconfig/network-script/ifcfg-eth0
+
+service network restart
+2、查看ip
+ifconfig -a
+ip addr
+
